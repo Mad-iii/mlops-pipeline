@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+mlruns/
+mlflow.db
+.pytest_cache/
+.coverage
+*.pkl
+*.joblib
+*.model
+.DS_Store
