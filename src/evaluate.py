@@ -5,6 +5,7 @@ from sklearn.metrics import accuracy_score, f1_score, log_loss
 from src.data import load_data
 from src.train import MODEL_NAME
 
+
 def evaluate_champion():
     _, X_test, _, y_test = load_data()
 
@@ -30,6 +31,7 @@ def evaluate_champion():
         print(f"{name}: {value:.4f}")
 
     return metrics
+
 
 if __name__ == "__main__":
     evaluate_champion()
